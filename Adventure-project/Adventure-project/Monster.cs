@@ -8,5 +8,8 @@ namespace Adventure_project
 {
     public class Monster : Room
     {
+        public Monster(string name, string description) : base(name, description)
+        {
+        }
     }
 }

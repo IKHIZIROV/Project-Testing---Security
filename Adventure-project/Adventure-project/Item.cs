@@ -8,6 +8,10 @@ namespace Adventure_project
 {
     public class Item : Room
     {
+        public Item(string name, string description) : base(name, description)
+        {
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
