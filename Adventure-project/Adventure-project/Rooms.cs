@@ -8,8 +8,7 @@ namespace Adventure_project
 {
     public class Rooms
     {
-        // dit is niet nodig
-        //public object Name { get; internal set; }
+        public object Name { get; internal set; }
         public Room CurrentRoom { get; set; }
         public Dictionary<string, Room> AllRooms { get; set; }
         public Inventory PlayerInv { get; } // player inventory

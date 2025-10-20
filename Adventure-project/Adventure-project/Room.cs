@@ -14,7 +14,8 @@ namespace Adventure_project
 
         public Dictionary<Directions, Rooms> Exits { get; set; } = new Dictionary<Directions, Rooms>();
 
-        List<Item> items = new List<Item>();
+        // veranderd naar een property en public gemaakt
+        public List<Item> Items { get; }
 
         public bool IsDeadly { get; set; }
 
@@ -23,6 +24,19 @@ namespace Adventure_project
         public bool HasMonster { get; set; }
 
         public bool IsMonsterAlive { get; set; }
+
+        // constructor aangemaakt
+        public Room(string name, string description)
+        {
+            Name = name;
+            Description = description;
+            Exits = new Dictionary<Directions, Rooms>();
+            Items = new List<Item>();
+            IsDeadly = false;
+            RequiresKey = false ;
+            HasMonster = false;
+            IsMonsterAlive = false ;
+        }
 
         public void DescribeRoom()
         {
@@ -33,14 +47,14 @@ namespace Adventure_project
 
         public void ShowItems()
         {
-            if (items.Count == 0)
+            if (Items.Count == 0)
             {
                 Console.WriteLine("There are no items in this room.");
             }
             else
             {
                 Console.WriteLine("Items in the room:");
-                foreach (var item in items)
+                foreach (var item in Items)
                 {
                     Console.WriteLine($"- {item.Name}: {item.Description}");
                 }
@@ -49,12 +63,17 @@ namespace Adventure_project
 
         public Item TakeItem(string itemId)
         {
-            Item itemToTake = items.FirstOrDefault(i => i.Name.Equals(itemId, StringComparison.OrdinalIgnoreCase));
+            Item itemToTake = Items.FirstOrDefault(i => i.Name.Equals(itemId, StringComparison.OrdinalIgnoreCase));
             if (itemToTake != null)
             {
-                items.Remove(itemToTake);
+                Items.Remove(itemToTake);
             }
             return itemToTake;
+        }
+        // add item methode toegevoegd
+        public void AddItem(Item item)
+        {
+            Items.Add(item);
         }
 
         public void AddExit(Directions direction, Rooms room)

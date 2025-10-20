@@ -29,8 +29,7 @@ namespace Adventure_project
         {
             foreach (var item in items)
             {
-                Console.WriteLine(item.Name);
-                Console.WriteLine(item.Description);
+                Console.WriteLine($"{item.Name} - {item.Description}");
             }
         }
     }
