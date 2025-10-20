@@ -8,12 +8,48 @@ namespace Adventure_project
 {
     public class Rooms
     {
-        public object Name { get; internal set; }
-
+        // dit is niet nodig
+        //public object Name { get; internal set; }
         public Room CurrentRoom { get; set; }
-
         public Dictionary<string, Room> AllRooms { get; set; }
+        public Inventory PlayerInv { get; } // player inventory
+        public bool GameOver { get; set; } // bools om te checken of de speler de game heeft gewonnen of niet
+        public bool GameWon { get; set; }
 
+        public Rooms()
+        {
+            AllRooms = new Dictionary<string, Room>();
+            PlayerInv = new Inventory();
+            GameOver = false;
+            GameWon = false;
+        }
+        //add room methode toegevoegd
+        public void AddRoom(Room room)
+        {
+            AllRooms[room.Name.ToLower()] = room;
+        }
+        // getroom methode toegevoegd
+        public Room GetRoom(string roomName)
+        {
+            if (AllRooms.ContainsKey(roomName.ToLower()))
+            {
+                return AllRooms[roomName.ToLower()];
+            }
+            return null;
+        }
+        // methode voor start kamer
+        public void SetSpawnRoom(string roomName)
+        {
+            Room startRoom = GetRoom(roomName.ToLower());
+            if (startRoom != null)
+            {
+                CurrentRoom = startRoom;
+            }
+            else
+            {
+                Console.WriteLine($"Start room '{roomName}' not found!");
+            }
+        }
         public void Move(Directions direction)
         {
             if (CurrentRoom.Exits.ContainsKey(direction))
@@ -64,6 +100,12 @@ namespace Adventure_project
             {
                 Console.WriteLine("Item not found in this room.");
             }
+        }
+        // look methode toegevoegd
+        public void Look()
+        {
+            CurrentRoom.DescribeRoom();
+            //Console.WriteLine(PlayerInv.ShowInventory());
         }
     }
 }
