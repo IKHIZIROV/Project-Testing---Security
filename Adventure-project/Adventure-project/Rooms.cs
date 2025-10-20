@@ -8,5 +8,6 @@ namespace Adventure_project
 {
     public class Rooms
     {
+        public object Name { get; internal set; }
     }
 }
