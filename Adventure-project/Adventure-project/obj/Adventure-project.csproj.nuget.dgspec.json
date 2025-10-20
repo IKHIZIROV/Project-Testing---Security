@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismai\\source\\repos\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {}
+    "C:\\Users\\ismai\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismai\\source\\repos\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {
+    "C:\\Users\\ismai\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismai\\source\\repos\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
+        "projectUniqueName": "C:\\Users\\ismai\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
         "projectName": "Adventure-project",
-        "projectPath": "C:\\Users\\ismai\\source\\repos\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
+        "projectPath": "C:\\Users\\ismai\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
         "packagesPath": "C:\\Users\\ismai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismai\\source\\repos\\Adventure-project\\Adventure-project\\obj\\",
+        "outputPath": "C:\\Users\\ismai\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
