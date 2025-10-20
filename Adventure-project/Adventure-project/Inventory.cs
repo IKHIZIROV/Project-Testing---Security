@@ -8,5 +8,30 @@ namespace Adventure_project
 {
     public class Inventory
     {
+        List<Item> items = new List<Item>();
+
+        public void AddItem(Item item)
+        {
+            items.Add(item);
+        }
+
+        public void RemoveItem(Item item)
+        {
+            items.Remove(item);
+        }
+
+        public void HasItem(Item item)
+        {
+            items.Contains(item);
+        }
+
+        public void ShowInventory()
+        {
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.Description);
+            }
+        }
     }
 }
