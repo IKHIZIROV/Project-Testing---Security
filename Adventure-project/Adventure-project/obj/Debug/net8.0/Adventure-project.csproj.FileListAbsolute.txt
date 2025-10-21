@@ -1,0 +1,15 @@
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\bin\Debug\net8.0\Adventure-project.exe
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\bin\Debug\net8.0\Adventure-project.deps.json
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\bin\Debug\net8.0\Adventure-project.runtimeconfig.json
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\bin\Debug\net8.0\Adventure-project.dll
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\bin\Debug\net8.0\Adventure-project.pdb
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.AssemblyInfoInputs.cache
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.AssemblyInfo.cs
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.csproj.CoreCompileInputs.cache
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.sourcelink.json
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.dll
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\refint\Adventure-project.dll
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.pdb
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\Adventure-project.genruntimeconfig.cache
+C:\Users\faroo\source\repos\IKHIZIROV\Project-Testing---Security\Adventure-project\Adventure-project\obj\Debug\net8.0\ref\Adventure-project.dll
