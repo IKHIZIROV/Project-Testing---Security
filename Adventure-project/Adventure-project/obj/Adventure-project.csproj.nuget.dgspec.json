@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faroo\\source\\repos\\IKHIZIROV\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {}
+    "C:\\Users\\Teoman\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faroo\\source\\repos\\IKHIZIROV\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {
+    "C:\\Users\\Teoman\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faroo\\source\\repos\\IKHIZIROV\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
+        "projectUniqueName": "C:\\Users\\Teoman\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
         "projectName": "Adventure-project",
-        "projectPath": "C:\\Users\\faroo\\source\\repos\\IKHIZIROV\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
-        "packagesPath": "C:\\Users\\faroo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faroo\\source\\repos\\IKHIZIROV\\Project-Testing---Security\\Adventure-project\\Adventure-project\\obj\\",
+        "projectPath": "C:\\Users\\Teoman\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\Adventure-project.csproj",
+        "packagesPath": "C:\\Users\\Teoman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teoman\\Source\\Repos\\Project-Testing---Security\\Adventure-project\\Adventure-project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\faroo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Teoman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
