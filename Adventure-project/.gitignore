@@ -1,0 +1,41 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+*.user
+*.userosscache
+*.sln.docstates
+
+# MSTest test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+**/[Nn]u[Bb]ugget/*
+*.nupkg
+.nuget/
+nuget.exe
+**/packages/*
+!**/packages/build/
+
+# Project specific
+**/*.csproj.nuget.*
+**/project.assets.json
+**/project.nuget.cache
+**/*.AssemblyInfo.cs
+**/*.AssemblyInfoInputs.cache
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
