@@ -10,6 +10,7 @@ namespace Adventure_project;
 
 public class GameSetup
 {
+    // niet getest omdat deze klasse enkel de spelwereld opbouwt het is alleen setupcode. f
     public Rooms CreateWorld()
     {
         // Create the world
