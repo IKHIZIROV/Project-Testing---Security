@@ -1,0 +1,10 @@
+=== Treasure Vault ===
+You've entered the legendary treasure vault! Gold coins are scattered everywhere, and precious gems sparkle in the dim light. 
+
+In the corner, you find:
+- A legendary sword that deals 30 damage
+- A master key that opens all doors
+- A health elixir that restores 100 HP
+
+This is the ultimate reward for your bravery!
+

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Adventure_project</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Adventure_project</AssemblyName>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="diagram\**" />
+    <Compile Remove="AdventureAPI\**" />
+    <EmbeddedResource Remove="diagram\**" />
+    <EmbeddedResource Remove="AdventureAPI\**" />
+    <None Remove="diagram\**" />
+    <None Remove="AdventureAPI\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="AdventureAPI\**" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
